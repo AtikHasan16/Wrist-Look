@@ -7,7 +7,7 @@
 
 A modern, full-stack e-commerce platform for browsing and managing premium watches. Built with the latest Next.js 16 App Router, featuring server-side rendering, optimized image loading, authentication, and a beautiful UI powered by DaisyUI.
 
-![WristLook Website Banner](/wristLook_banner.png)
+![WristLook Website Banner](/public/wristLook_banner.png)
 
 ---
 
@@ -17,19 +17,19 @@ A modern, full-stack e-commerce platform for browsing and managing premium watch
 
 ### Homepage with Hero Section
 
-![Homepage](/Readme_homepage.png)
+![Homepage](/public/Readme_homepage.png)
 
 ### All Watches Gallery
 
-![Watches Grid](/watches.png)
+![Watches Grid](/public/watches.png)
 
 ### Watch Detail Page
 
-![Watch Details](/watch_details.png)
+![Watch Details](/public/watch_details.png)
 
 ### Product Management Dashboard
 
-![Manage Products](/manage_products.png)
+![Manage Products](/public/manage_products.png)
 
 </div>
 
