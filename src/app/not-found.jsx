@@ -19,7 +19,7 @@ export default function NotFound() {
         {/* Error Message */}
         <h1 className="text-4xl md:text-5xl font-bold mb-4">Page Not Found</h1>
         <p className="text-lg text-base-content/70 mb-8 max-w-md mx-auto">
-          Oops! The page you're looking for doesn't exist. It might have been
+          Oops! The page you are looking for does not exist. It might have been
           moved or deleted, or the URL might be incorrect.
         </p>
 

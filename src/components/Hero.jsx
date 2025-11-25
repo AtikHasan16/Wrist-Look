@@ -11,9 +11,10 @@ const Hero = () => {
       }}
     >
       <div className="hero-overlay opacity-100"></div>
+      <div className="hero-overlay opacity-60"></div>
       <div className="hero-content text-neutral-content text-center">
-        <div className="max-w-xl">
-          <h1 className="mb-5 text-6xl font-bold text-white drop-shadow-2xl">
+        <div className="">
+          <h1 className="mb-5 text-7xl font-bold text-white drop-shadow-2xl">
             Find Your Perfect Wrist Look
           </h1>
           <p className="mb-5 text-white">

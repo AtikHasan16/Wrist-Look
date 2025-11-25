@@ -10,7 +10,7 @@ import React, { useEffect, useState } from "react";
 import { handleSignOut } from "@/app/actions/index";
 
 const Navbar = ({ session }) => {
-  console.log(session);
+//   console.log(session);
 
   const [scrolled, setScrolled] = useState(false);
 
@@ -34,6 +34,9 @@ const Navbar = ({ session }) => {
       </li>
       <li>
         <Link href="/watches">Watches</Link>
+      </li>
+      <li>
+        <Link href="/contact">Contact Us</Link>
       </li>
     </>
   );
