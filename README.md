@@ -7,7 +7,7 @@
 
 A modern, full-stack e-commerce platform for browsing and managing premium watches. Built with the latest Next.js 16 App Router, featuring server-side rendering, optimized image loading, authentication, and a beautiful UI powered by DaisyUI.
 
-![WristLook Website Banner](C:/Users/Hasan%20MD%20Atik/.gemini/antigravity/brain/b59ce5ae-a8a3-49f8-b829-4af275da6f77/wristlook_website_banner_1764104386865.png)
+![WristLook Website Banner](/wristLook_banner.png)
 
 ---
 
@@ -17,19 +17,19 @@ A modern, full-stack e-commerce platform for browsing and managing premium watch
 
 ### Homepage with Hero Section
 
-![Homepage](C:/Users/Hasan%20MD%20Atik/.gemini/antigravity/brain/b59ce5ae-a8a3-49f8-b829-4af275da6f77/readme_homepage_1764104281448.png)
+![Homepage](/Readme_homepage.png)
 
 ### All Watches Gallery
 
-![Watches Grid](C:/Users/Hasan%20MD%20Atik/.gemini/antigravity/brain/b59ce5ae-a8a3-49f8-b829-4af275da6f77/readme_watches_grid_1764104295897.png)
+![Watches Grid](/watches.png)
 
 ### Watch Detail Page
 
-![Watch Details](C:/Users/Hasan%20MD%20Atik/.gemini/antigravity/brain/b59ce5ae-a8a3-49f8-b829-4af275da6f77/readme_watch_detail_1764104315797.png)
+![Watch Details](/watch_details.png)
 
 ### Product Management Dashboard
 
-![Manage Products](C:/Users/Hasan%20MD%20Atik/.gemini/antigravity/brain/b59ce5ae-a8a3-49f8-b829-4af275da6f77/readme_manage_products_1764104338988.png)
+![Manage Products](/manage_products.png)
 
 </div>
 
