@@ -1,29 +1,33 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { getAllWatches } from "@/lib/getAllWatches";
 
-const Trending = () => {
+const Trending = async () => {
   // Placeholder data for trending items
-  const trendingItems = [
-    {
-      id: 1,
-      name: "Classic Chrono",
-      price: "$299",
-      img: "https://images.unsplash.com/photo-1524592094714-0f0654e20314?q=80&w=1999&auto=format&fit=crop",
-    },
-    {
-      id: 2,
-      name: "Modern Minimalist",
-      price: "$199",
-      img: "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?q=80&w=1894&auto=format&fit=crop",
-    },
-    {
-      id: 3,
-      name: "Luxury Gold",
-      price: "$499",
-      img: "https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?q=80&w=2070&auto=format&fit=crop",
-    },
-  ];
+  const data = await getAllWatches();
+  const trendingItems = data.slice(0, 3);
+
+  // const trendingItems = [
+  //   {
+  //     id: 1,
+  //     name: "Classic Chrono",
+  //     price: "$299",
+  //     img: "https://images.unsplash.com/photo-1524592094714-0f0654e20314?q=80&w=1999&auto=format&fit=crop",
+  //   },
+  //   {
+  //     id: 2,
+  //     name: "Modern Minimalist",
+  //     price: "$199",
+  //     img: "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?q=80&w=1894&auto=format&fit=crop",
+  //   },
+  //   {
+  //     id: 3,
+  //     name: "Luxury Gold",
+  //     price: "$499",
+  //     img: "https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?q=80&w=2070&auto=format&fit=crop",
+  //   },
+  // ];
 
   return (
     <div className="py-20 bg-base-200">
@@ -33,10 +37,13 @@ const Trending = () => {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {trendingItems.map((item) => (
-            <div key={item.id} className="card rounded-2xl bg-base-100 shadow-xl">
+            <div
+              key={item.id}
+              className="card rounded-2xl bg-base-100 shadow-xl"
+            >
               <figure className="relative h-64 overflow-hidden">
                 <Image
-                  src={item.img}
+                  src={item.image}
                   alt={item.name}
                   fill
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
