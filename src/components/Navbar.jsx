@@ -36,6 +36,9 @@ const Navbar = ({ session }) => {
         <Link href="/watches">Watches</Link>
       </li>
       <li>
+        <Link href="/about">About Us</Link>
+      </li>
+      <li>
         <Link href="/contact">Contact Us</Link>
       </li>
     </>
@@ -69,7 +72,7 @@ const Navbar = ({ session }) => {
           </div>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal text-lg font-semibold px-1">
+          <ul className="menu menu-horizontal gap-5 text-lg font-semibold px-1">
             {navOptions}
           </ul>
         </div>

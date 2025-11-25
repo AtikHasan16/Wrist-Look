@@ -12,6 +12,14 @@ const nextConfig = {
         protocol: "https",
         hostname: "*.googleusercontent.com",
       },
+      {
+        protocol: "https",
+        hostname: "vipshopitaly.com",
+      },
+      {
+        protocol: "https",
+        hostname: "**",
+      },
     ],
   },
 };
