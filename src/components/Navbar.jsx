@@ -10,7 +10,7 @@ import React, { useEffect, useState } from "react";
 import { handleSignOut } from "@/app/actions/index";
 
 const Navbar = ({ session }) => {
-//   console.log(session);
+  //   console.log(session);
 
   const [scrolled, setScrolled] = useState(false);
 
@@ -69,7 +69,9 @@ const Navbar = ({ session }) => {
           </div>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal text-xl px-1">{navOptions}</ul>
+          <ul className="menu menu-horizontal text-lg font-semibold px-1">
+            {navOptions}
+          </ul>
         </div>
         <div className="navbar-end gap-2">
           {session?.user ? (
@@ -97,7 +99,7 @@ const Navbar = ({ session }) => {
               </div>
               <ul
                 tabIndex={0}
-                className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-200 rounded-box w-64"
+                className="menu menu-sm dropdown-content mt-3 z-1 p-2 shadow bg-base-200 rounded-box w-64"
               >
                 <li className="menu-title text-secondary">
                   <div className="flex flex-col gap-1 px-2 py-3">
