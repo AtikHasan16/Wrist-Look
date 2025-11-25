@@ -1,29 +1,24 @@
-import { Oxanium, Sawarabi_Gothic } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/Navbar";
+import NavbarWrapper from "@/components/NavbarWrapper";
 import Footer from "@/components/Footer";
+import { Oxanium } from "next/font/google";
 
-export const oxanium = Oxanium({
-  subsets: ["latin"],
-  weight: "400",
-});
-export const sawarabiGothic = Sawarabi_Gothic({
-  subsets: ["latin"],
-  weight: "400",
-});
-
-const metadata = {
+export const metadata = {
   title: "WristLook | Premium Watches",
   description: "Find your perfect wrist look today.",
 };
 
+export const oxanium = Oxanium({
+  subsets: ["latin"],
+});
+
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" data-theme="light">
+    <html lang="en" data-theme="light" suppressHydrationWarning>
       <body
-        className={`${oxanium.className} antialiased flex flex-col min-h-screen`}
-      > 
-        <Navbar />
+        className={` antialiased flex flex-col min-h-screen ${oxanium.className}`}
+      >
+        <NavbarWrapper />
         <main className="grow">{children}</main>
         <Footer />
       </body>
