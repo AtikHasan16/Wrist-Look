@@ -22,7 +22,7 @@ const ContactPage = () => {
   return (
     <div className="min-h-screen bg-base-100">
       {/* Hero Section */}
-      <div className="bg-gradient-to-br from-primary/10 to-secondary/10 py-16">
+      <div className="bg-linear-to-br from-primary/10 to-secondary/10 py-16">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-2xl mx-auto">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
@@ -137,7 +137,7 @@ const ContactPage = () => {
                 <h2 className="card-title text-xl mb-4">Contact Info</h2>
                 <div className="space-y-4">
                   <div className="flex items-start gap-3">
-                    <IoMailOutline className="w-6 h-6 text-primary mt-1 flex-shrink-0" />
+                    <IoMailOutline className="w-6 h-6 text-primary mt-1 shrink-0" />
                     <div>
                       <p className="font-semibold">Email</p>
                       <a
@@ -150,7 +150,7 @@ const ContactPage = () => {
                   </div>
 
                   <div className="flex items-start gap-3">
-                    <IoCallOutline className="w-6 h-6 text-primary mt-1 flex-shrink-0" />
+                    <IoCallOutline className="w-6 h-6 text-primary mt-1 shrink-0" />
                     <div>
                       <p className="font-semibold">Phone</p>
                       <a
@@ -270,7 +270,7 @@ const ContactPage = () => {
         {/* Map Section */}
         <div className="mt-16">
           <div className="card bg-base-200 shadow-lg overflow-hidden">
-            <div className="aspect-video bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center">
+            <div className="aspect-video bg-linear-to-br from-primary/20 to-secondary/20 flex items-center justify-center">
               <div className="text-center">
                 <IoLocationOutline className="w-16 h-16 mx-auto mb-4 text-primary" />
                 <p className="text-lg font-semibold">Store Location</p>

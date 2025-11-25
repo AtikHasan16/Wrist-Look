@@ -8,27 +8,6 @@ const Trending = async () => {
   const data = await getAllWatches();
   const trendingItems = data.slice(0, 3);
 
-  // const trendingItems = [
-  //   {
-  //     id: 1,
-  //     name: "Classic Chrono",
-  //     price: "$299",
-  //     img: "https://images.unsplash.com/photo-1524592094714-0f0654e20314?q=80&w=1999&auto=format&fit=crop",
-  //   },
-  //   {
-  //     id: 2,
-  //     name: "Modern Minimalist",
-  //     price: "$199",
-  //     img: "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?q=80&w=1894&auto=format&fit=crop",
-  //   },
-  //   {
-  //     id: 3,
-  //     name: "Luxury Gold",
-  //     price: "$499",
-  //     img: "https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?q=80&w=2070&auto=format&fit=crop",
-  //   },
-  // ];
-
   return (
     <div className="py-20 bg-base-200">
       <div className="container mx-auto px-4">
@@ -38,7 +17,7 @@ const Trending = async () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {trendingItems.map((item) => (
             <div
-              key={item.id}
+              key={item._id}
               className="card rounded-2xl bg-base-100 shadow-xl"
             >
               <figure className="relative h-64 overflow-hidden">
@@ -57,7 +36,7 @@ const Trending = async () => {
                 </p>
                 <div className="card-actions justify-end">
                   <Link
-                    href={`/watches/${item.id}`}
+                    href={`/watches/${item._id}`}
                     className="btn btn-primary "
                   >
                     View Details

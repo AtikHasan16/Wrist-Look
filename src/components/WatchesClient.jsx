@@ -47,7 +47,7 @@ const WatchesClient = ({ watches }) => {
               <div className="flex items-center justify-between mt-4">
                 <p className="text-2xl font-bold text-primary">${item.price}</p>
                 <Link
-                  href={`/watches/${item.id}`}
+                  href={`/watches/${item._id}`}
                   className="btn btn-primary btn-sm"
                 >
                   View Details
