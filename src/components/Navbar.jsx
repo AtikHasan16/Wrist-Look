@@ -91,6 +91,7 @@ const Navbar = ({ session }) => {
                       alt={session.user.name || "User"}
                       width={40}
                       height={40}
+                      loading="lazy"
                       className="rounded-full"
                     />
                   ) : (

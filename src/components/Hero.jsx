@@ -1,15 +1,18 @@
 import Link from "next/link";
+import Image from "next/image";
 import React from "react";
 
 const Hero = () => {
   return (
-    <div
-      className="hero min-h-[80vh]"
-      style={{
-        backgroundImage:
-          "url(https://images.unsplash.com/photo-1614164185128-e4ec99c436d7?q=80&w=1974&auto=format&fit=crop)",
-      }}
-    >
+    <div className="hero min-h-[80vh] relative">
+      <Image
+        src="https://images.unsplash.com/photo-1614164185128-e4ec99c436d7?q=80&w=1974&auto=format&fit=crop"
+        alt="Luxury watches collection"
+        fill
+        priority
+        sizes="100vw"
+        className="object-cover"
+      />
       <div className="hero-overlay opacity-100"></div>
       <div className="hero-overlay opacity-60"></div>
       <div className="hero-content text-neutral-content text-center">

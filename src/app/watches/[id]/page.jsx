@@ -37,7 +37,6 @@ const WatchDetailsPage = async ({ params }) => {
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"
               className="object-cover"
-              priority
             />
             {!watch.inStock && (
               <div className="absolute top-6 right-6">
