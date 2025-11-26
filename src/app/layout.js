@@ -7,6 +7,9 @@ import { Toaster } from "react-hot-toast";
 export const metadata = {
   title: "WristLook | Premium Watches",
   description: "Find your perfect wrist look today.",
+  icons: {
+    icon: "https://png.pngtree.com/template/20210527/ourmid/pngtree-watch-logo-design-for-time-image_528643.jpg",
+  },
 };
 
 export const oxanium = Oxanium({
