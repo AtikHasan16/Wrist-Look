@@ -1,0 +1,182 @@
+[
+  {
+    "name": "Chronograph Master Elite",
+    "brand": "SwissTime",
+    "description": "The Chronograph Master Elite combines Swiss precision with contemporary design. Featuring a sophisticated chronograph mechanism and premium materials, this timepiece represents the pinnacle of watchmaking excellence.",
+    "price": 2850,
+    "category": "Luxury",
+    "image": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?q=80&w=1999&auto=format&fit=crop",
+    "stock": 15,
+    "inStock": true,
+    "features": [
+      "Swiss automatic chronograph movement",
+      "Sapphire crystal with anti-reflective coating",
+      "Stainless steel case and bracelet",
+      "Water resistance up to 100 meters"
+    ],
+    "createdAt": "2025-11-28T05:04:34.769Z",
+    "updatedAt": "2025-11-28T05:04:34.769Z"
+  },
+  {
+    "name": "Minimalist Nordic",
+    "brand": "Nordic Design Co",
+    "description": "The Minimalist Nordic embodies Scandinavian simplicity and elegance. With its clean lines and understated beauty, this watch is perfect for those who appreciate refined minimalism in everyday wear.",
+    "price": 450,
+    "category": "Minimalist",
+    "image": "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?q=80&w=1894&auto=format&fit=crop",
+    "stock": 42,
+    "inStock": true,
+    "features": [
+      "Japanese quartz movement",
+      "Premium Italian leather strap",
+      "Scratch-resistant mineral glass",
+      "Ultra-slim 6mm case profile"
+    ],
+    "createdAt": "2025-11-28T05:05:12.445Z",
+    "updatedAt": "2025-11-28T05:05:12.445Z"
+  },
+  {
+    "name": "Royal Heritage Gold",
+    "brand": "Emperor Timepieces",
+    "description": "The Royal Heritage Gold is a statement of luxury and sophistication. Adorned with diamond hour markers and crafted from 18K gold, this watch is designed for those who demand the finest.",
+    "price": 4200,
+    "category": "Luxury",
+    "image": "https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?q=80&w=2070&auto=format&fit=crop",
+    "stock": 8,
+    "inStock": true,
+    "features": [
+      "18K yellow gold case and bracelet",
+      "12 diamond hour markers",
+      "Swiss automatic movement",
+      "Exhibition sapphire case back"
+    ],
+    "createdAt": "2025-11-28T05:06:23.891Z",
+    "updatedAt": "2025-11-28T05:06:23.891Z"
+  },
+  {
+    "name": "Deep Sea Professional",
+    "brand": "AquaTech",
+    "description": "The Deep Sea Professional is engineered for extreme underwater adventures. With its robust construction and exceptional water resistance, this diving watch is built to withstand the harshest marine environments.",
+    "price": 1850,
+    "category": "Sport",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=1999&auto=format&fit=crop",
+    "stock": 28,
+    "inStock": true,
+    "features": [
+      "300-meter water resistance",
+      "Unidirectional rotating bezel",
+      "Luminous hands and markers",
+      "Screw-down crown and case back"
+    ],
+    "createdAt": "2025-11-28T05:07:45.123Z",
+    "updatedAt": "2025-11-28T05:07:45.123Z"
+  },
+  {
+    "name": "Classic Heritage 1955",
+    "brand": "Vintage Classics",
+    "description": "The Classic Heritage 1955 pays homage to mid-century watchmaking excellence. This retro-inspired timepiece combines vintage aesthetics with modern reliability for a truly timeless appeal.",
+    "price": 980,
+    "category": "Classic",
+    "image": "https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?q=80&w=1964&auto=format&fit=crop",
+    "stock": 19,
+    "inStock": true,
+    "features": [
+      "Manual-winding mechanical movement",
+      "Domed acrylic crystal",
+      "Genuine leather strap with vintage buckle",
+      "Small seconds subdial at 6 o'clock"
+    ],
+    "createdAt": "2025-11-28T05:08:56.234Z",
+    "updatedAt": "2025-11-28T05:08:56.234Z"
+  },
+  {
+    "name": "Smart Fusion Hybrid",
+    "brand": "TechTime Innovation",
+    "description": "The Smart Fusion Hybrid seamlessly blends traditional watchmaking with cutting-edge smart technology. Track your fitness, receive notifications, and enjoy analog elegance all in one sophisticated package.",
+    "price": 650,
+    "category": "Smart",
+    "image": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?q=80&w=2072&auto=format&fit=crop",
+    "stock": 56,
+    "inStock": true,
+    "features": [
+      "Hybrid analog-digital display",
+      "Activity and sleep tracking",
+      "Smartphone notification alerts",
+      "6-month battery life"
+    ],
+    "createdAt": "2025-11-28T05:09:34.567Z",
+    "updatedAt": "2025-11-28T05:09:34.567Z"
+  },
+  {
+    "name": "Aviator Squadron",
+    "brand": "SkyMaster Aviation",
+    "description": "The Aviator Squadron draws inspiration from military aviation instruments. With its oversized crown and high-contrast dial, this pilot's watch is designed for ultimate legibility and precision timing.",
+    "price": 1450,
+    "category": "Aviation",
+    "image": "https://images.unsplash.com/photo-1614164185128-e4ec99c436d7?q=80&w=1974&auto=format&fit=crop",
+    "stock": 22,
+    "inStock": true,
+    "features": [
+      "Swiss automatic movement",
+      "Oversized onion crown for gloved operation",
+      "Super-LumiNova luminescent markers",
+      "Nylon NATO strap with steel hardware"
+    ],
+    "createdAt": "2025-11-28T05:10:12.890Z",
+    "updatedAt": "2025-11-28T05:10:12.890Z"
+  },
+  {
+    "name": "Moonphase Eclipse",
+    "brand": "Celestial Complications",
+    "description": "The Moonphase Eclipse showcases the beauty of astronomical complications. This elegant timepiece features a moonphase display and dual time zones, perfect for the sophisticated world traveler.",
+    "price": 3400,
+    "category": "Complications",
+    "image": "https://images.unsplash.com/photo-1533139502658-0198f920d8e8?q=80&w=2070&auto=format&fit=crop",
+    "stock": 11,
+    "inStock": true,
+    "features": [
+      "Swiss automatic movement with moonphase",
+      "Dual time zone GMT function",
+      "Date display with retrograde pointer",
+      "Genuine alligator leather strap"
+    ],
+    "createdAt": "2025-11-28T05:11:45.678Z",
+    "updatedAt": "2025-11-28T05:11:45.678Z"
+  },
+  {
+    "name": "Carbon Racing GT",
+    "brand": "VelocityX Motorsport",
+    "description": "The Carbon Racing GT is inspired by high-performance motorsports. Featuring a carbon fiber dial and chronograph functionality, this watch captures the spirit of speed and precision engineering.",
+    "price": 1200,
+    "category": "Sport",
+    "image": "https://images.unsplash.com/photo-1548169874-53e85f753f1e?q=80&w=2070&auto=format&fit=crop",
+    "stock": 35,
+    "inStock": true,
+    "features": [
+      "Carbon fiber textured dial",
+      "Chronograph with tachymeter scale",
+      "Lightweight titanium case",
+      "High-performance silicone strap"
+    ],
+    "createdAt": "2025-11-28T05:12:23.456Z",
+    "updatedAt": "2025-11-28T05:12:23.456Z"
+  },
+  {
+    "name": "Elegance Rose Diamond",
+    "brand": "Feminine Luxury",
+    "description": "The Elegance Rose Diamond is designed for the discerning woman who appreciates refined luxury. With its mother-of-pearl dial and diamond accents, this watch is both elegant and timeless.",
+    "price": 1650,
+    "category": "Women",
+    "image": "https://images.unsplash.com/photo-1611085583191-a3b181a88401?q=80&w=2071&auto=format&fit=crop",
+    "stock": 24,
+    "inStock": true,
+    "features": [
+      "Mother-of-pearl dial with diamond markers",
+      "Rose gold PVD stainless steel case",
+      "Swiss quartz movement",
+      "Interchangeable mesh bracelet"
+    ],
+    "createdAt": "2025-11-28T05:13:01.234Z",
+    "updatedAt": "2025-11-28T05:13:01.234Z"
+  }
+]

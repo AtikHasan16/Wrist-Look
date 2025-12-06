@@ -1,0 +1,182 @@
+[
+  {
+    "name": "Ocean Master Pro",
+    "brand": "DeepBlue Maritime",
+    "description": "The Ocean Master Pro is engineered for professional divers and ocean adventurers. With exceptional water resistance and luminous markers, this watch performs flawlessly in the deepest waters.",
+    "price": 2100,
+    "category": "Sport",
+    "image": "https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?q=80&w=2070&auto=format&fit=crop",
+    "stock": 18,
+    "inStock": true,
+    "features": [
+      "500-meter water resistance",
+      "Helium escape valve",
+      "Ceramic bezel insert",
+      "Super luminous BGW9 coating"
+    ],
+    "createdAt": "2025-11-28T05:14:22.789Z",
+    "updatedAt": "2025-11-28T05:14:22.789Z"
+  },
+  {
+    "name": "Urban Street Style",
+    "brand": "MetroTech",
+    "description": "The Urban Street Style brings contemporary fashion to timekeeping. With its bold design and modern aesthetics, this watch is perfect for the style-conscious urbanite.",
+    "price": 320,
+    "category": "Fashion",
+    "image": "https://images.unsplash.com/photo-1539874754764-5a96559165b0?q=80&w=2071&auto=format&fit=crop",
+    "stock": 67,
+    "inStock": true,
+    "features": [
+      "Interchangeable strap system",
+      "Matte black ion-plated case",
+      "Minimalist dial design",
+      "Japanese quartz movement"
+    ],
+    "createdAt": "2025-11-28T05:15:45.123Z",
+    "updatedAt": "2025-11-28T05:15:45.123Z"
+  },
+  {
+    "name": "Skeleton Vision",
+    "brand": "MechanicalArt",
+    "description": "The Skeleton Vision showcases the intricate beauty of mechanical watchmaking. With its transparent dial and exhibition case, you can admire the mesmerizing movement from every angle.",
+    "price": 1680,
+    "category": "Luxury",
+    "image": "https://images.unsplash.com/photo-1547996160-81dfa63595aa?q=80&w=2070&auto=format&fit=crop",
+    "stock": 12,
+    "inStock": true,
+    "features": [
+      "Skeletonized automatic movement",
+      "Front and back exhibition windows",
+      "Hand-finished bridges",
+      "Genuine alligator leather strap"
+    ],
+    "createdAt": "2025-11-28T05:16:33.456Z",
+    "updatedAt": "2025-11-28T05:16:33.456Z"
+  },
+  {
+    "name": "Field Commander",
+    "brand": "TacticalGear Co",
+    "description": "The Field Commander is built for tactical operations and outdoor expeditions. This rugged military-grade watch can withstand extreme conditions while maintaining precise timekeeping.",
+    "price": 890,
+    "category": "Tactical",
+    "image": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?q=80&w=2071&auto=format&fit=crop",
+    "stock": 33,
+    "inStock": true,
+    "features": [
+      "Shock-resistant construction",
+      "Night vision compatible display",
+      "Cordura ballistic nylon strap",
+      "Compass bezel markings"
+    ],
+    "createdAt": "2025-11-28T05:17:12.890Z",
+    "updatedAt": "2025-11-28T05:17:12.890Z"
+  },
+  {
+    "name": "Rose Garden Elite",
+    "brand": "Blossom Watches",
+    "description": "The Rose Garden Elite celebrates feminine elegance with floral-inspired design elements. This delicate timepiece features hand-painted rose details and sparkling accents.",
+    "price": 1120,
+    "category": "Women",
+    "image": "https://images.unsplash.com/photo-1622434641406-a158123450f9?q=80&w=2064&auto=format&fit=crop",
+    "stock": 21,
+    "inStock": true,
+    "features": [
+      "Hand-painted floral dial",
+      "Swarovski crystal accents",
+      "Rose gold plated case",
+      "Butterfly clasp bracelet"
+    ],
+    "createdAt": "2025-11-28T05:18:45.234Z",
+    "updatedAt": "2025-11-28T05:18:45.234Z"
+  },
+  {
+    "name": "Digital Pulse Pro",
+    "brand": "SmartWave",
+    "description": "The Digital Pulse Pro combines cutting-edge fitness tracking with sleek smartwatch functionality. Monitor your health metrics in style with this advanced wearable technology.",
+    "price": 480,
+    "category": "Smart",
+    "image": "https://images.unsplash.com/photo-1617043786394-f977fa12eddf?q=80&w=2070&auto=format&fit=crop",
+    "stock": 89,
+    "inStock": true,
+    "features": [
+      "Heart rate and SpO2 monitoring",
+      "GPS tracking with route mapping",
+      "7-day battery life",
+      "Waterproof up to 50m"
+    ],
+    "createdAt": "2025-11-28T05:19:23.567Z",
+    "updatedAt": "2025-11-28T05:19:23.567Z"
+  },
+  {
+    "name": "Tourbillon Masterpiece",
+    "brand": "Haute Horlogerie",
+    "description": "The Tourbillon Masterpiece represents the pinnacle of watchmaking artistry. This exceptional timepiece features a visible tourbillon mechanism and represents hundreds of hours of skilled craftsmanship.",
+    "price": 8500,
+    "category": "Luxury",
+    "image": "https://images.unsplash.com/photo-1594534475283-5c0b8dd4b7ba?q=80&w=2070&auto=format&fit=crop",
+    "stock": 3,
+    "inStock": true,
+    "features": [
+      "Flying tourbillon at 6 o'clock",
+      "Hand-assembled Swiss movement",
+      "18K white gold case",
+      "Limited edition numbered"
+    ],
+    "createdAt": "2025-11-28T05:20:01.890Z",
+    "updatedAt": "2025-11-28T05:20:01.890Z"
+  },
+  {
+    "name": "Solar Explorer",
+    "brand": "EcoTime",
+    "description": "The Solar Explorer harnesses the power of light to keep perfect time indefinitely. This eco-friendly timepiece never needs a battery change and features robust outdoor capabilities.",
+    "price": 720,
+    "category": "Sport",
+    "image": "https://images.unsplash.com/photo-1526045431048-f857369baa09?q=80&w=2070&auto=format&fit=crop",
+    "stock": 44,
+    "inStock": true,
+    "features": [
+      "Solar-powered movement",
+      "6-month power reserve",
+      "Radio-controlled time sync",
+      "Sapphire crystal glass"
+    ],
+    "createdAt": "2025-11-28T05:20:45.123Z",
+    "updatedAt": "2025-11-28T05:20:45.123Z"
+  },
+  {
+    "name": "Bronze Diver Heritage",
+    "brand": "Nautical Legacy",
+    "description": "The Bronze Diver Heritage develops a unique patina over time, making each watch one-of-a-kind. This vintage-inspired dive watch combines old-world charm with modern diving specifications.",
+    "price": 1350,
+    "category": "Sport",
+    "image": "https://images.unsplash.com/photo-1533139502658-0198f920d8e8?q=80&w=2070&auto=format&fit=crop",
+    "stock": 16,
+    "inStock": true,
+    "features": [
+      "Bronze case with natural patina",
+      "200-meter water resistance",
+      "Vintage-style domed crystal",
+      "Aged leather strap"
+    ],
+    "createdAt": "2025-11-28T05:21:34.456Z",
+    "updatedAt": "2025-11-28T05:21:34.456Z"
+  },
+  {
+    "name": "Perpetual Calendar Elite",
+    "brand": "Complications Royale",
+    "description": "The Perpetual Calendar Elite automatically adjusts for different month lengths and leap years until 2100. This sophisticated complication demonstrates the height of mechanical ingenuity.",
+    "price": 5200,
+    "category": "Complications",
+    "image": "https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?q=80&w=2070&auto=format&fit=crop",
+    "stock": 7,
+    "inStock": true,
+    "features": [
+      "Perpetual calendar mechanism",
+      "Day, date, month, and year display",
+      "Moonphase indicator",
+      "Swiss automatic movement"
+    ],
+    "createdAt": "2025-11-28T05:22:15.789Z",
+    "updatedAt": "2025-11-28T05:22:15.789Z"
+  }
+]
